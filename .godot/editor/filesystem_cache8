@@ -1,0 +1,28 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1702948595
+export_presets.cfg::TextFile::-1::1702948250::0::1::::<><>::
+icon.svg::CompressedTexture2D::6598400266313237774::1702595657::1702595661::1::::<><>::
+::res://Audio/::1702942358
+SFX - Death Explosion.ogg::AudioStreamOggVorbis::6597967589500941518::1702940932::1702941779::1::::<><>::
+SFX - Main engine thrust.ogg::AudioStreamOggVorbis::7095066000405979596::1702941733::1702941833::1::::<><>::
+SFX - Success.ogg::AudioStreamOggVorbis::7774014195724382699::1702940932::1702941779::1::::<><>::
+::res://Levels/::1702948229
+level_1.tscn::PackedScene::5288834732612005908::1702948229::0::1::::<><>::uid://c0kxelqgshp1e::::res://Scenes/floor_background.tscn<>res://Scripts/LandingPad.gd<>uid://kgr1kt5hwlly::::res://Scenes/player.tscn
+level_2.tscn::PackedScene::7071505526322179102::1702948229::0::1::::<><>::res://Scripts/LandingPad.gd<>uid://c0kxelqgshp1e::::res://Scenes/floor_background.tscn<>uid://kgr1kt5hwlly::::res://Scenes/player.tscn
+level_3.tscn::PackedScene::1466223285676264765::1702948229::0::1::::<><>::uid://c0kxelqgshp1e::::res://Scenes/floor_background.tscn<>res://Scripts/LandingPad.gd<>uid://kgr1kt5hwlly::::res://Scenes/player.tscn
+level_4.tscn::PackedScene::2192714155135259151::1702948229::0::1::::<><>::uid://c0kxelqgshp1e::::res://Scenes/floor_background.tscn<>res://Scripts/LandingPad.gd<>uid://kgr1kt5hwlly::::res://Scenes/player.tscn<>uid://dpsjq58y4bkri::::res://Scenes/moving_hazard.tscn
+::res://Materials/::1702948308
+FloorBrown.tres::StandardMaterial3D::5769318656026673520::1702948308::0::1::::<><>::
+ShipRedMaterial.tres::StandardMaterial3D::6103363913307946393::1702948308::0::1::::<><>::
+::res://Particles/::1702948229
+booster_particles.tscn::PackedScene::1453155181391318073::1702948229::0::1::::<><>::
+explosion_particles.tscn::PackedScene::7308022214277692275::1702942951::0::1::::<><>::
+success_particles.tscn::PackedScene::643357747384234160::1702942951::0::1::::<><>::
+::res://Scenes/::1702948308
+floor_background.tscn::PackedScene::6549610472657539916::1702948308::0::1::::<><>::uid://cogx3nw4klsxc::::res://Materials/FloorBrown.tres
+moving_hazard.tscn::PackedScene::8249830158668546826::1702948229::0::1::::<><>::res://Scripts/MovingHazard.gd
+player.tscn::PackedScene::715353878381319898::1702948308::0::1::::<><>::res://Scripts/Player.gd<>uid://c1adtd6wdvdoo::::res://Audio/SFX - Death Explosion.ogg<>uid://cs7rrn2jiyj7v::::res://Materials/ShipRedMaterial.tres<>uid://di01438e48l6j::::res://Audio/SFX - Success.ogg<>uid://c8c5x2xqtl7wy::::res://Audio/SFX - Main engine thrust.ogg<>uid://ux6ivcx1ovdp::::res://Particles/booster_particles.tscn<>uid://dcecb8hw7dbrv::::res://Particles/explosion_particles.tscn<>uid://jfwajmrh6ca7::::res://Particles/success_particles.tscn
+::res://Scripts/::1702948012
+LandingPad.gd::GDScript::-1::1702937832::0::1::::<>CSGBox3D<>::
+MovingHazard.gd::GDScript::-1::1702940785::0::1::::<>AnimatableBody3D<>::
+Player.gd::GDScript::-1::1702948012::0::1::::<>RigidBody3D<>::

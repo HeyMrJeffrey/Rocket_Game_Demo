@@ -1,0 +1,10 @@
+OmniLight3D
+CSGBox3D
+MeshInstance3D
+AudioStreamPlayer3D
+AudioStreamPlayer
+AnimatableBody3D
+CollisionShape3D
+RigidBody3D
+Camera3D
+Node3D
